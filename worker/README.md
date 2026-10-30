@@ -6,7 +6,7 @@
 ## 部署（网页上点一点，大约 5 分钟）
 
 1. 注册并登录 <https://dash.cloudflare.com>。
-2. 左侧 **Workers & Pages → Create → Create Worker**，名字填 `lexbox-dav`，点 **Deploy**。
+2. 左侧菜单 **Build → Compute → Workers & Pages**（找不到就在顶上的 Quick search 搜 `Workers`），点 **Create application**，选 **Start with Hello World!**，名字填 `lexbox-dav`，点 **Deploy**。
 3. 部署好后点 **Edit code**，把 [`webdav-proxy.js`](./webdav-proxy.js) 的内容整个贴进去覆盖，点 **Deploy**。
 4. 记下地址，形如 `https://lexbox-dav.<你的子域>.workers.dev`。
 5. 打开词匣 → 设置 → WebDAV 同步：
